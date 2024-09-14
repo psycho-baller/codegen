@@ -4,6 +4,8 @@ You can check out the list of iterations I went through in my [main.ipynb](main.
 
 I then decided to make a web page to display the visualization so it would be more internactive. You can check it out [here](https://code-challenge-visualization.herokuapp.com/).
 
+![alt text](image.png)
+
 Or run it locally:
 
 ```bash
