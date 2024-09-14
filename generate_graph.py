@@ -41,7 +41,7 @@ def graph_to_json(graph):
         nodes.append({
             'id': node,
             'folder': data.get('folder', 'default'),
-            'size': 200 + 200 * graph.out_degree(node)
+            'size': 500 + 400 * graph.out_degree(node)
         })
     for source, target in graph.edges():
         edges.append({'source': source, 'target': target})
